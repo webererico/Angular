@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SiginComponent } from './sigin.component';
+import { IfRenderComponent } from './if-render.component';
 
-describe('SiginComponent', () => {
-  let component: SiginComponent;
-  let fixture: ComponentFixture<SiginComponent>;
+describe('IfRenderComponent', () => {
+  let component: IfRenderComponent;
+  let fixture: ComponentFixture<IfRenderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SiginComponent]
+      imports: [IfRenderComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SiginComponent);
+    fixture = TestBed.createComponent(IfRenderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
