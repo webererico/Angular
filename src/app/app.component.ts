@@ -9,6 +9,7 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.
     EventComponent,
     EmitterComponent,
     ListRenderComponent,
-    PipeOperatorComponent
+    PipeOperatorComponent,
+    TwoWayBindingComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
