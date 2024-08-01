@@ -10,7 +10,10 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipeOperatorComponent } from './components/pipe-operator/pipe-operator.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
-
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { CarListComponent } from './components/car-list/car-list.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -23,7 +26,11 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     EmitterComponent,
     ListRenderComponent,
     PipeOperatorComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    MatFormFieldModule,
+    MatInputModule,
+    MatIconModule,
+    CarListComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

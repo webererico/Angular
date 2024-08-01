@@ -2,7 +2,7 @@
 
 *{
     font-family: Helvetica;
-    color:red;
+    color:black;
     margin: 20;
 }
 
@@ -14,3 +14,5 @@
 h1 { 
     background: blue;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

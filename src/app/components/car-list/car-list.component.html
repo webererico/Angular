@@ -1,0 +1,15 @@
+
+<h3>Carros 🚗🚗</h3>
+<button (click)="obterTodosCarros()"> Obter todos os carros</button>
+<button (click)="obterSomenteUmCarro()"> Obter somente um carros</button>
+<button (click)="adicionarCarro()"> Adicionar carro</button>
+<button (click)="atualizarCarro()"> Atualizar carro</button>
+<button (click)="removerCarro()"> Remover Carro</button>
+
+<div>
+    <ul>
+        <li *ngFor="let car of carList">
+            Carro {{car.id}} {{car.name}} {{car.brand}}
+        </li>
+    </ul>
+</div>
