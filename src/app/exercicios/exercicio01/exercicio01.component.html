@@ -1,0 +1,9 @@
+<!-- Exercicio 1 -->
+<div>
+    <ul> 
+        <li *ngFor="let name of listName"> Nome: {{name}}</li>
+        @for (item of listName; track item){
+            <li>Nome: {{item}}</li>
+        }
+    </ul>
+</div>

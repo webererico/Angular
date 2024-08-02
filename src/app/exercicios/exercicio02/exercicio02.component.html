@@ -1,0 +1,20 @@
+<!-- Exercicio 02 -->
+<button (click)="adicionar()"> Adicionar novo item</button>
+
+<!-- Exercicio 03 -->
+<input type="text" [(ngModel)]="novoItem" name="novoItem" placeholder="Digite o novo item">
+
+
+<!-- Exercicio 01 -->
+<ul>
+    @for (item of items; track item){
+    <li>Item: {{item}}</li>
+    }
+</ul>
+
+<!-- Exercicio 04 -->
+@if (novoItem != ''){ 
+<app-exercicio04></app-exercicio04>
+} @else{
+    <p> Digite alguma coisa para ver o botao</p>
+}

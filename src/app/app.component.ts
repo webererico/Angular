@@ -14,6 +14,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { CarListComponent } from './components/car-list/car-list.component';
+import { Exercicio01Component } from './exercicios/exercicio01/exercicio01.component';
+import { Exercicio02Component } from './exercicios/exercicio02/exercicio02.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -30,7 +32,9 @@ import { CarListComponent } from './components/car-list/car-list.component';
     MatFormFieldModule,
     MatInputModule,
     MatIconModule,
-    CarListComponent
+    CarListComponent,
+    Exercicio01Component,
+    Exercicio02Component
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
