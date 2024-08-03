@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { CarListComponent } from './components/car-list/car-list.component';
 import { Exercicio01Component } from './exercicios/exercicio01/exercicio01.component';
 import { Exercicio02Component } from './exercicios/exercicio02/exercicio02.component';
+import { ExercicioAPIComponent } from './exercicios/exercicio-api/exercicio-api.component';
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -34,7 +35,8 @@ import { Exercicio02Component } from './exercicios/exercicio02/exercicio02.compo
     MatIconModule,
     CarListComponent,
     Exercicio01Component,
-    Exercicio02Component
+    Exercicio02Component,
+    ExercicioAPIComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
